@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 
-.contaner{
-    max-width: 600px;
+
+.container{
+    max-width: 1000px;
 }
 
 .logo-icons-wrapper {
@@ -106,14 +107,16 @@ input[type=search]:focus {
     gap: 0.7rem;
     justify-content: center;
     align-items: center;
-    width: 96%;
-    max-width: 900px;
+   
+    max-width: 96%;
+    height: auto;
     margin: 2rem auto;
     background-image: url(assets/mrq-hp-airo-portrait.webp);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
    padding-top: 1rem;
+   border-radius: 8px;
     
   }
 
@@ -159,7 +162,7 @@ input[type=search]:focus {
    align-items: center;
    padding-inline: 1rem;
    background-color: black;
-   width: 95%;
+   width: 96%;
    margin: auto;
    border-radius: 8px;
 
@@ -293,10 +296,19 @@ input[type=search]:focus {
   font-size: 1.4rem;
   }
 
-  .tools{
-    width: 96%;
-    margin: 0 auto;
+  /* tools */
 
+  .tools{
+    max-width: 96%;
+    margin: 0 auto;
+    border-radius: 8px;
+
+  }
+  .tools img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+   
   }
 
 
@@ -337,6 +349,12 @@ input[type=search]:focus {
         font-weight: 700;
       }
 
+      .profession img{
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+      }
+
       .ux-button-text ,  .profession button{
         outline: 2px solid black;
         padding-inline: 1.6rem;
@@ -345,14 +363,20 @@ input[type=search]:focus {
         font-weight: 700;
     
       }
-
+        /*customar section*/
       .core-too7oxc{
         font-weight: 700;
-        width: 96%;
+        max-width: 96%;
         margin: 0 auto;
         margin-bottom: 2rem;
         text-align: center;
 
+      }
+
+      .customar img{
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
       }
 
       .website-builder{
@@ -397,6 +421,12 @@ input[type=search]:focus {
           margin-block: 2rem;
       }
 
+      .godaddy-guide img{
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+      }
+
       .whywegodaddy{
         width: 96%;
         margin-inline:  auto;
@@ -407,6 +437,8 @@ input[type=search]:focus {
         font-size: 2rem;
         font-weight: bold;
       }
+
+
 
        .sure {
        line-height: 1.3;
@@ -493,3 +525,17 @@ input[type=search]:focus {
      .copyright p:last-child{ 
       line-height:1.5;
      }
+     @media only screen and (min-width: 700px) {
+      
+       .container{
+       max-width: 100%;
+       }
+
+       .airo-section{
+        height: 400px ;
+       }
+       
+
+      /* Add more responsive styles as needed */
+   }
+   
